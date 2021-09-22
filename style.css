@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+    border-top: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+#bt-1:hover {
+    color: #fff !important;
+    transform: translateY(5px);
+    transition: 1s transform ease;
+    border-radius: 50%;
+}
+
+#bt {
+    color: #9A9DA0;
+    border-top: 3px solid #ffbb33;
+}
+
+#bt:hover {
+    color: #fff;
+}
+
+#p-b p {
+    color: black !important;
+}
+
+footer i {
+    padding-top: 5px;
+    color: #9A9DA0;
+}
+
+footer i:hover {
+    color: #fff;
+    transform: translateY(-10px);
+    transition: 1s all ease;
+}
+
+.te {
+    margin: 3%;
+}
+
+.same {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bdc3c7, #465f79);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #465f79, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+@media (min-width: 400px) {
+    .container-small {
+        width: 350px;
+    }
+    .container-large {
+        width: 550px;
+    } 
+} 
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 800px;
+    }
+    .container-large {
+        width: 1170px;
+    }
+    
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 1200px;
+    }
+    .container-large {
+        width: 1600px;
+    } 
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
