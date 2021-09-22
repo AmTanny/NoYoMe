@@ -84,6 +84,39 @@ footer i:hover {
     } 
 }
 
+@media (max-width: 768px) {
+    #dis {
+        font-size: 4rem;
+    }
+    #ka {
+        font-size: 1.3rem;
+    }
+    #ke {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #col {
+        display: grid;
+        justify-content: end;
+    }
+
+    #col li {
+        flex-direction: row;
+        margin: 0 10px;
+    }
+
+
+}
+@media (max-width: 400px) {
+    #dis {
+        font-size: 2.3rem;
+    }
+
+}
+
+
 .container-small, .container-large {
     max-width: 100%;
 }
