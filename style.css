@@ -33,7 +33,12 @@ br {
     background-size: 200% auto;
     color: white;  
     display: block;
- }
+}
+
+#btt:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 #btt:hover {
     transform: translateY(5px);
