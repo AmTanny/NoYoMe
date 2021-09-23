@@ -174,8 +174,9 @@ footer i:hover {
     #didi {
         width: 300px !important;
     }
-    .navbar {
+    #head {
         padding-top: 40px !important;
+    }
 }
 @media (max-width: 400px) {
     #dis {
