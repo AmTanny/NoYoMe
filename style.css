@@ -8,7 +8,7 @@ html {
 }
 
 li {
-    list-style: none;
+    list-style: circle;
 }
 
 #didi {
