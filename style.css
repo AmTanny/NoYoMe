@@ -1,3 +1,8 @@
+:root {
+    --secondary-col: #E8EDEF;
+    --ter-col: #dee4e9;
+}
+
 html {
     scroll-behavior: smooth;
     border-top: none !important;
@@ -5,6 +10,14 @@ html {
 
 li {
     list-style: none;
+}
+
+#didi {
+    background-color: var(--ter-col);
+}
+
+.same {
+    background-color: var(--secondary-col) !important;
 }
 
 #bt-1:hover {
@@ -24,12 +37,19 @@ li {
 }
 
 #p-d {
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     border-left: 6px solid #ffbb33;
     box-shadow: 0 5px 8px 0 #888888;
     border-radius: 7px;
 }
 
 #p-c {
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-left: 6px solid #ffbb33;
     box-shadow: 0 5px 10px 0 #888888;
     border-radius: 7px;
