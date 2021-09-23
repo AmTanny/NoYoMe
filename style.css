@@ -16,7 +16,6 @@ li {
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 #dothis li {
@@ -74,9 +73,8 @@ br {
 
 #p-d {
     background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */  
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-left: 6px solid #ffbb33;
     box-shadow: 0 5px 8px 0 #888888;
     border-radius: 7px;
@@ -138,7 +136,6 @@ footer i:hover {
     .container-large {
         width: 1170px;
     }
-    
 } 
 @media (min-width: 1200px) {
     .container-small {
@@ -175,9 +172,10 @@ footer i:hover {
         width: 300px !important;
     }
     #head {
-        padding-top: 40px !important;
+        margin-top: 40px !important;
     }
 }
+
 @media (max-width: 400px) {
     #dis {
         font-size: 2.3rem;
