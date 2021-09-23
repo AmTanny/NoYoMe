@@ -23,8 +23,16 @@ li {
     color: #fff;
 }
 
-#p-b p {
-    color: black !important;
+#p-d {
+    border-left: 6px solid #ffbb33;
+    box-shadow: 0 5px 8px 0 #888888;
+    border-radius: 7px;
+}
+
+#p-c {
+    border-left: 6px solid #ffbb33;
+    box-shadow: 0 5px 10px 0 #888888;
+    border-radius: 7px;
 }
 
 footer i {
@@ -34,7 +42,7 @@ footer i {
 
 footer i:hover {
     color: #fff;
-    transform: translateY(-10px);
+    transform: translateY(-7.5px);
     transition: 1s all ease;
 }
 
@@ -42,11 +50,8 @@ footer i:hover {
     margin: 3%;
 }
 
-.same {
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #bdc3c7, #465f79);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #465f79, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+#maint li {
+    list-style: disc;
 }
 
 @media (min-width: 400px) {
@@ -88,10 +93,10 @@ footer i:hover {
     #dis {
         font-size: 4rem;
     }
-    #ka {
+    #ra {
         font-size: 1.3rem;
     }
-    #ke {
+    #re {
         font-size: 1.2rem;
     }
 }
@@ -106,16 +111,25 @@ footer i:hover {
         flex-direction: row;
         margin: 0 10px;
     }
-
+    #didi {
+        width: 300px !important;
+    }
 
 }
 @media (max-width: 400px) {
     #dis {
         font-size: 2.3rem;
     }
-
+    #didi {
+        width: 215px !important;
+    }
 }
 
+@media (max-width: 280px) {
+    #did {
+        display: none;
+    }
+}
 
 .container-small, .container-large {
     max-width: 100%;
