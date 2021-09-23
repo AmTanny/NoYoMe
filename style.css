@@ -24,18 +24,18 @@ li {
 
 
 
-#btt {background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%)}
 #btt {
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;  
-   display: block;
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;  
+    display: block;
  }
 
 #btt:hover {
     transform: translateY(5px);
     background-position: right center; /* change the direction of the change here */
- }
+}
 
 .same {
     background-color: var(--secondary-col) !important;
