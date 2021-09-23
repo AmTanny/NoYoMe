@@ -1,5 +1,6 @@
 :root {
     --secondary-col: #E8EDEF;
+    --tert-col: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
 }
 
 html {
@@ -22,10 +23,12 @@ li {
     list-style: circle;
 }
 
-
+br {
+    display: none;
+}
 
 #btt {
-    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33  51%, #ffb347  100%);
+    background-image: var(--tert-col);
     transition: 0.5s;
     background-size: 200% auto;
     color: white;  
@@ -55,6 +58,8 @@ li {
 
 #bt:hover {
     color: #fff;
+    transform: scale(1.01);
+    transition: 1s all ease;
 }
 
 #bb {
@@ -172,6 +177,13 @@ footer i:hover {
     }
     #didi {
         width: 215px !important;
+    }
+    #p-c,
+    #p-d {
+        font-size: 0.9rem;
+    }
+    br {
+        display: block;
     }
 }
 
