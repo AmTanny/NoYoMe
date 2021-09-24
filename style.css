@@ -55,7 +55,7 @@ br {
 }
 
 #bt-1:not(:hover) { 
-    color: inherit !important;
+    color: #E8EDEF !important;
     transform: rotate(0deg);
     transition: 0.5s all;
 } 
