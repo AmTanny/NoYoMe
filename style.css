@@ -55,7 +55,7 @@ br {
 }
 
 #bt-1:not(:hover) { 
-    color: #E8EDEF !important;
+    color: #9A9DA0 !important;
     transform: rotate(0deg);
     transition: 0.5s all;
 } 
