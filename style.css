@@ -85,6 +85,17 @@ br {
     border-radius: 7px;
 }
 
+#p-d:hover {
+    transform: scale(1.1);
+    background: rgba(inherit,.9);
+    transition: 1s all;
+}
+
+#p-d:not(:hover) {
+    transform: scale(1);
+    transition: 0.4s all;
+} 
+
 #p-c {
     background: #83a4d4;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
