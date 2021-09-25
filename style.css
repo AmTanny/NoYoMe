@@ -57,7 +57,7 @@ br {
 #bt-1:not(:hover) { 
     color: #9A9DA0 !important;
     transform: rotate(0deg);
-    transition: 0.5s all;
+    transition: 0.75s all;
 } 
 
 #bt {
@@ -93,7 +93,7 @@ br {
 
 #p-d:not(:hover) {
     transform: scale(1);
-    transition: 0.4s all;
+    transition: 0.75s all;
 } 
 
 #p-c {
