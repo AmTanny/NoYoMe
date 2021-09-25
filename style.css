@@ -86,14 +86,13 @@ br {
 }
 
 #p-d:hover {
-    transform: scale(1.04);
-    background: rgba(inherit,.9);
+    transform: scale(1.01);
     transition: 1s all;
 }
 
 #p-d:not(:hover) {
     transform: scale(1);
-    transition: 0.75s all;
+    transition: 0.8s all;
 } 
 
 #p-c {
@@ -106,14 +105,13 @@ br {
 }
 
 #p-c:hover {
-    transform: scale(1.04);
-    background: rgba(inherit,.9);
+    transform: scale(1.01);
     transition: 1s all;
 }
 
 #p-c:not(:hover) {
     transform: scale(1);
-    transition: 0.4s all;
+    transition: 0.8s all;
 } 
 
 footer i {
