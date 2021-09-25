@@ -94,6 +94,10 @@ br {
     border-radius: 7px;
 }
 
+#p-c:hover {
+    transform: scale(1.2);
+}
+
 footer i {
     padding-top: 5px;
     color: #9A9DA0;
