@@ -67,7 +67,7 @@ br {
 
 #bt:hover {
     color: #fff;
-    transform: scale(1.01);
+    transform: scale(1.08);
     transition: 1s all ease;
 }
 
@@ -86,7 +86,7 @@ br {
 }
 
 #p-d:hover {
-    transform: scale(1.01);
+    transform: scale(1.08);
     transition: 1s all;
 }
 
