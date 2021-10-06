@@ -12,19 +12,38 @@ li {
     list-style: none;
 }
 
-#didi {
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#dothis li {
-    list-style: circle;
-}
-
 br {
     display: none;
 }
+
+/* Container */
+.container-small, .container-large {
+    max-width: 100%;
+}
+
+/* Navbar */
+#bt {
+    color: #9A9DA0;
+    border-top: 3px solid #ffbb33;
+}
+
+#bt:hover {
+    color: #fff;
+    transform: scale(1.02);
+    transition: 1s all ease;
+}
+
+.bt-1:hover {
+    color: #fff !important;
+    transform: rotate(360deg) scale(1.25);
+    transition: 0.5s all;
+}
+
+.bt-1:not(:hover) { 
+    color: #9A9DA0 !important;
+    transform: rotate(0deg);
+    transition: 0.75s all;
+} 
 
 #btt {
     background-image: var(--tert-col);
@@ -44,76 +63,69 @@ br {
     background-position: right center; /* change the direction of the change here */
 }
 
-.same {
-    background-color: var(--secondary-col) !important;
+/* Chat Snap */
+.p-d {
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000);
+    border-left: 6px solid #ffbb33;
+    box-shadow: 0 5px 8px 0 #888888;
+    border-radius: 7px;
+    transform: scale(1);
+    transition: 0.6s all;
 }
 
-#bt-1:hover {
-    color: #fff !important;
-    transform: rotate(360deg) scale(1.25);
-    transition: 0.5s all;
+.p-d:hover {
+    transform: scale(1.08);
 }
 
-#bt-1:not(:hover) { 
-    color: #9A9DA0 !important;
-    transform: rotate(0deg);
-    transition: 0.75s all;
-} 
-
-#bt {
-    color: #9A9DA0;
-    border-top: 3px solid #ffbb33;
+/* Header */
+#didi {
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
 }
 
-#bt:hover {
-    color: #fff;
-    transform: scale(1.02);
-    transition: 1s all ease;
+/* Header - Chat Snap */
+#p-c {
+    background: #83a4d4;
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
+    background: linear-gradient(to right, #b6fbff, #83a4d4); 
+    border-left: 6px solid #ffbb33;
+    box-shadow: 0 5px 10px 0 #555;
+    border-radius: 7px;
+    transform: scale(1);
+    transition: 0.6s all;
 }
 
+#p-c:hover {
+    transform: scale(1.08);
+}
+
+/* Don't Do This */
 #bb {
     font-size: 1.1rem;
     font-weight: 400;
 }
 
-#p-d {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */  
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-left: 6px solid #ffbb33;
-    box-shadow: 0 5px 8px 0 #888888;
-    border-radius: 7px;
+.same {
+    background-color: var(--secondary-col) !important;
 }
 
-#p-d:hover {
-    transform: scale(1.08);
-    transition: 1s all;
+#do-this li {
+    list-style: circle;
 }
 
-#p-d:not(:hover) {
-    transform: scale(1);
-    transition: 0.8s all;
-} 
-
-#p-c {
-    background: #83a4d4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-left: 6px solid #ffbb33;
-    box-shadow: 0 5px 10px 0 #555;
-    border-radius: 7px;
+/* Do This Instead */
+.te {
+    margin: 3%;
 }
 
-#p-c:hover {
-    transform: scale(1.08);
-    transition: 1s all;
+.te h5 {
+    margin-top: -10px;
 }
 
-#p-c:not(:hover) {
-    transform: scale(1);
-    transition: 0.8s all;
-} 
-
+/* Footer */
 footer i {
     padding-top: 5px;
     color: #9A9DA0;
@@ -125,18 +137,7 @@ footer i:hover {
     transition: 1s all ease;
 }
 
-.te {
-    margin: 3%;
-}
-
-.te h5 {
-    margin-top: -10px;
-}
-
-#maint li {
-    list-style: disc;
-}
-
+/* New Container */
 @media (min-width: 400px) {
     .container-small {
         width: 350px;
@@ -145,7 +146,6 @@ footer i:hover {
         width: 550px;
     } 
 } 
-
 @media (min-width: 768px) {
     .container-small {
         width: 500px;
@@ -171,6 +171,7 @@ footer i:hover {
     } 
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
     #dis {
         font-size: 4rem;
@@ -205,8 +206,7 @@ footer i:hover {
     #didi {
         width: 215px !important;
     }
-    #p-c,
-    #p-d {
+    #p-c, .p-d {
         font-size: 0.9rem;
     }
     br {
@@ -218,8 +218,4 @@ footer i:hover {
     #did {
         display: none;
     }
-}
-
-.container-small, .container-large {
-    max-width: 100%;
 }
